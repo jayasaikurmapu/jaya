@@ -1,0 +1,33 @@
+.hr-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f2f2f2;
+}
+
+  .hr-form button {
+    padding: 0.5rem 1rem;
+    background-color: #ff8080;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  .hr-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+  }
+
+  .hr-form button:hover {
+    background-color: #0069d9;
+  }
+  
+  .hr-form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
